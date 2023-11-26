@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Styles for sliders */
+input[type="range"] {
+    width: 100%;
+    margin: 5px 0;
+}
+
+/* Styles for buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #visualization {
+        width: 100%;
+        height: 200px;
+    }
+}
